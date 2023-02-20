@@ -1,0 +1,45 @@
+.get-in-touch-container {
+    background-color: white;
+    padding: 10% 7%;
+}
+
+.get-in-touch-title {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Montserrat,sans-serif;
+}
+
+.get-in-touch-caption {
+    font-size: 20.5px;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+@media only screen and (min-width:'820px') {
+    .get-in-touch-container{
+        width: 50%;
+        padding-top: 7%;
+    }
+    .get-in-touch-title {
+        font-size: 2.75em;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .get-in-touch-title {
+        font-size: 3em;
+    }
+    .get-in-touch-caption{
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .get-in-touch-title {
+        font-size: 4em;
+    }
+    .get-in-touch-caption{
+        font-size: 1.6em;
+    }
+}

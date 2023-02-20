@@ -1,0 +1,74 @@
+.feedback-list-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback-list-item-container {
+    text-align: center;
+    margin: 7% 3%;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+}
+
+.feedback-list-item-container:hover {
+    margin-top:2%;
+    transition: 0.5s;
+}
+
+.feedback-list-item-description {
+    padding: 0px 0px;
+    font-size: 17px;
+    font-style: italic;
+    color: #808080;
+    margin: 38px 0 0 0;
+}
+
+.feedback-list-item-name {
+    color: #f97e83;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.feedback-list-item-icon {
+    color: #f97e83;
+    font-size: 2.75em;
+    transform: rotate(-2deg);
+}
+
+@media only screen and (min-width:'640px') {
+    .feedback-list-item-container {
+        width: 44%;
+    }
+}
+
+@media only screen and (min-width:'820px') {
+    .feedback-list-item-container {
+        width: 46%;
+        margin: 5% 2%;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .feedback-list-item-container {
+        width: 31.3%;
+        margin: 3% 1%;
+    }
+    .feedback-list-item-description{
+        font-size: 1.45em;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .feedback-list-item-container {
+        padding: 3% 2%;
+    }
+    .feedback-list-item-description{
+        font-size: 1.85em;
+    }
+    .feedback-list-item-name {
+        font-size: 2.5em;
+    }
+    .feedback-list-item-icon {
+        font-size: 3.5em;
+    }
+}

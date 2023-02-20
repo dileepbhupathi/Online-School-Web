@@ -1,0 +1,75 @@
+.pathways-advancement-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.pathways-advancement-title {
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.pathway-advancement-anchor {
+    padding: 0px 0px 50px 35px;
+    margin: 0px;
+    font-weight: 300;
+    color: grey;
+}
+
+.pathway-freepik-anchor {
+    border-color: grey;
+    color: grey;
+    font-family: Open Sans, sans-serif;
+    display: inline;
+    font-size: 16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+}
+
+.pathway-freepik-anchor:hover {
+    color: white;
+    text-decoration-color: white;
+
+}
+
+@media only screen and (min-width:'640px') {
+    .pathways-advancement-title {
+        font-size: 3em;
+        padding: 5% 10% 0;
+    }
+    .pathway-advancement-anchor{
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 1.25em;
+        font-weight: 400;
+    }
+    .pathway-freepik-anchor {
+        color: rgba(255, 255, 255, 0.877);
+    
+    }
+}
+
+@media only screen and (min-width:'820px') {
+    .pathways-advancement-title {
+        font-size: 4.125em;
+        padding: 5% 10% 0;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .pathways-advancement-title {
+        font-size: 4.75em;
+    }
+    .pathway-advancement-anchor{
+        padding: 3% 0% 8%;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .pathways-advancement-title {
+        font-size: 5em;
+    }
+    .pathway-advancement-anchor{
+        font-size: 1.75em;
+    }
+}

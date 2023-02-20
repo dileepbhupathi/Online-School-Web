@@ -1,0 +1,146 @@
+.body-title-container {
+    padding-top: 12px;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.body-title {
+    color: #e13690;
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.body-context {
+    font-family: Ubuntu, sans-serif;
+    line-height: 1.8;
+    font-style: normal;
+    padding: 0% 11%;
+    margin-top: 30px;
+}
+
+.body-freepik-anchor-text {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.freepik-anchors {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-family: Open Sans, sans-serif;
+    display: inline;
+    font-size: 16px;
+    text-underline-offset: 4px;
+
+}
+.freepik-anchors:hover {
+    text-decoration-color: #fc9dd0ec;
+
+}
+
+.learn-more-button {
+    letter-spacing: 1px;
+    // transition-duration: 0.5s;
+    text-transform: none;
+    transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    font-weight: 600;
+    background-image: linear-gradient(to right, #f97e83, #e13690);
+    margin: 42px auto 0 0;
+    padding: 18px 58px 45px ;
+    border-color: transparent;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    border: 0px ;
+
+}
+
+.learn-more-button:hover {
+    border-color: transparent;
+    margin-top: 6%;
+    color: white;
+
+}
+
+
+.body-title-image {
+    width: 85%;
+}
+
+
+.body-title-image-container {
+    margin:  50px 0px 0px 0px;
+}
+
+@media only screen and (min-width:'640px') {
+    .body-title {
+        font-size: 3.75em;
+    }
+}
+
+@media only screen and (min-width:'820px') {
+    .body-title {
+        font-size: 4em;
+    }
+    .body-context {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .body-title-container{
+        display: flex;
+    }
+    .body-content-container{
+        width: 50%;
+        text-align: left;
+        padding: 10% 5% 5%% 10%;
+
+    }
+    .body-title {
+        font-size: 4.5em;
+    }
+    .body-context {
+        padding: 0% 0%;
+        font-size: 1.5em;
+    }
+    .body-freepik-anchor-text{
+        font-size: 1.5em;
+    }
+    .freepik-anchors {
+        font-size: 1em
+    }
+    .body-title-image{
+        width: 100%;
+    }
+    .body-title-image-container {
+        margin:  12% 0% 0% 0%;
+    }
+    .body-title-image-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .body-title{
+        font-size: 5em;
+        margin-top: 3%;
+    }
+    .body-title-container{
+    padding: 5% 5% 0% 5%;
+
+    }
+    .body-context {
+        font-size: 1.75em;
+    }
+    .body-freepik-anchor-text{
+        font-size: 1.75em;
+    }
+    .learn-more-button {
+        padding: 6% 18% 12% ;
+        font-size: 1.5em;
+    }
+}

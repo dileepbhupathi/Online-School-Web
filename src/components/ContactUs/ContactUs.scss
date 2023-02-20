@@ -1,0 +1,63 @@
+.contact-us-container {
+    background-color: #f2f2f2;
+    padding: 15% 10%;
+}
+
+.contact-us-content-container {
+    background-image: linear-gradient(to top, #f97e83, #e13690);
+    padding: 5%;
+    color: white;
+}
+
+.contact-us-title {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.contact-us-description {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width:'640px') {
+    .contact-us-container {
+        padding: 10% 8%;
+    }
+}
+
+@media only screen and (min-width:'820px') {
+    .contact-us-container{
+        display: flex;
+        padding: 6% 6%;
+    }
+    .contact-us-content-container{
+        width: 50%;
+    }
+    .contact-us-title{
+        font-size: 3em;
+        margin-top: 0%;
+    }
+    .contact-us-description{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .contact-us-title{
+        font-size: 3.75em;
+    }
+    .contact-us-description{
+        font-size: 1.5em;
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .contact-us-title{
+        font-size: 4.5em;
+    }
+    .contact-us-description{
+        font-size: 1.75em;
+        margin-bottom: 15%;
+    }
+}

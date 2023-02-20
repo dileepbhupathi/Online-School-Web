@@ -1,0 +1,68 @@
+.contact-us-list-item-container {
+  border-top: 1px solid white;
+  padding-bottom: 10%;
+  padding-top: 6%;
+}
+
+.contact-us-list-item-city {
+  font-weight: 700;
+  font-size: 23px;
+  font-family: Montserrat, sans-serif;
+}
+
+.contact-us-list-item-address {
+  font-size: 17px;
+}
+
+.contact-us-anchor {
+  color: white;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.contact-us-freepik-anchor {
+  display: inline;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 22%;
+}
+
+@media only screen and (min-width: 640px) {
+  .contact-us-list-item-container {
+    padding-bottom: 6%;
+    padding-top: 4%;
+  }
+}
+
+@media only screen and (min-width : '1040px') {
+  .contact-us-list-item-container {
+    padding-bottom: 9%;
+    padding-top: 7%;
+  }
+  .contact-us-list-item-city{
+    font-size: 2em;
+  }
+  .contact-us-list-item-address{
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width : '1440px') {
+  .contact-us-list-item-container {
+    padding-bottom: 9%;
+    padding-top: 7%;
+  }
+  .contact-us-list-item-city{
+    font-size: 2.25em;
+  }
+  .contact-us-list-item-address{
+    font-size: 1.6em;
+  }
+  .contact-us-anchor {
+    font-size: 1.75em;
+  }
+  .contact-us-freepik-anchor {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,117 @@
+.school-website-about-container {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  padding: 15% 8%;
+}
+
+.school-website-about-content-container {
+  text-align: center;
+  margin-top: 25%;
+  color: white;
+}
+
+.school-website-about-title {
+  font-weight: 400;
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+
+.school-website-about-caption {
+  padding: 0px 30px;
+}
+
+.school-website-about-button {
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #f97e83, #e13690);
+  margin: 30px 0 0 0;
+  padding: 18px 50px 35px;
+  border-color: transparent;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  border: 0;
+}
+
+.school-website-about-button:hover {
+  margin:5% 0 0 0;
+  transition: 0.1s;
+}
+
+@media only screen and (min-width: "640px") {
+  .school-website-about-content-container {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .school-website-about-container {
+    display: flex;
+  }
+  .school-website-about-content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .school-website-about-title {
+    font-size: 2.5em;
+  }
+  .school-website-about-caption {
+    padding: 0px 0px;
+    font-size: 1.125em;
+  }
+}
+
+@media only screen and (min-width: "1040px") {
+  .school-website-about-content-container {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+  .school-website-about-title {
+    font-size: 2.65em;
+  }
+  .school-website-about-container {
+    padding: 15% 5% 15% 8%;
+  }
+  .school-website-about-caption {
+    font-size: 1.25em;
+  }
+  .school-website-about-button {
+    padding: 5% 20% 15%;
+    font-size: 1.5em;
+    display: flex;
+    align-self: flex-start;
+  }
+  .school-website-about-container{
+    padding: 10% 7%;
+  }
+}
+
+@media only screen and (min-width: "1440px") {
+  .school-website-about-content-container {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .school-website-about-title {
+    font-size: 3em;
+    margin-bottom: 0%;
+  }
+  .school-website-about-caption {
+    font-size: 1.5em;
+    align-self: flex-start;
+  }
+  .school-website-about-button {
+    padding: 3% 17% 13%;
+    font-size: 1.75em;
+    display: flex;
+    align-self: flex-start;
+  }
+  .school-website-about-container{
+    padding: 10% 7%;
+  }
+}

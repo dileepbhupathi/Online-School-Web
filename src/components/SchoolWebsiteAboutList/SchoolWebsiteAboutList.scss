@@ -1,0 +1,94 @@
+.school-website-about-list-cards {
+  margin: 8%;
+  border-radius: 1.5em;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+    132deg,
+    rgba(223, 212, 231, 1) 0%,
+    rgba(230, 14, 189, 0.6222864145658263) 50%,
+    rgba(242, 99, 16, 0.8631827731092436) 100%
+  );
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.card2 {
+  background-image: linear-gradient(
+    150deg,
+    rgba(227, 218, 18, 1),
+    rgba(213, 71, 237, 0.8939950980392157)
+  );
+}
+
+.card3 {
+  background-image: linear-gradient(
+    45deg,
+    rgba(243, 30, 30, 0.897),
+    rgba(38, 240, 31, 0.894)
+  );
+}
+
+.card4 {
+  background-image: linear-gradient(
+    45deg,
+    rgb(245, 244, 188),
+    rgb(247, 162, 5)
+  );
+}
+
+.school-website-about-list-card-count {
+  font-size: 3.75em;
+  margin: 0;
+}
+
+.school-website-about-list-card-caption {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.school-website-about-list-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: "640px") {
+  .school-website-about-list-cards {
+    margin: 4%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: "820px") {
+  .school-website-about-list-cards {
+    margin: 4%;
+    width: 100%;
+    height: 50vh;
+  }
+  .school-website-about-list-cards-container {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: "1040px") {
+  .school-website-about-list-cards-container {
+    width: 60%;
+  }
+  .school-website-about-list-cards {
+    margin: 2%;
+    width: 46%;
+    height: auto;
+  }
+  .school-website-about-list-cards-container {
+    width: 50%;
+  }
+  .school-website-about-list-card-caption {
+    font-size: 1.35em;
+  }
+}

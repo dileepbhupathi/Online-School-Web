@@ -1,0 +1,143 @@
+.school-review-body-container {
+  background-image: linear-gradient(to right, #e13690, #f97e83);
+  color: white;
+}
+
+.shool-review-caption {
+  margin: 0%;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  padding: 50px 80px 20px 35px;
+}
+
+.school-review-course-container {
+  background-color: transparent;
+  border: 0px solid;
+  color: white;
+  box-sizing: border-box;
+}
+
+.school-review-course-count {
+  font-size: 45px;
+  padding-left: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+.school-review-course-title {
+  font-size: 25px;
+  padding-left: 12px;
+  margin-top: 0px;
+}
+
+.school-review-course-context {
+  padding-left: 12px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.ant-card .ant-card-body {
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+.school-review-freepik-anchor {
+  padding: 0px 0px 50px 35px;
+  margin: 0px;
+  font-weight: 300;
+  color: white;
+}
+
+.freepik-anchor {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  display: inline;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 4px;
+}
+
+.freepik-anchor:hover {
+  color:#fd63b5;
+}
+
+@media only screen and (min-width: "640px") {
+  .shool-review-caption {
+    text-align: center;
+    font-size: 3.25em;
+    padding: 5% 15%;
+  }
+  .school-course-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .school-review-course-container {
+    width: 50%;
+    // display: flex;
+    // flex-wrap: wrap;
+  }
+  .school-review-freepik-anchor {
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  .freepik-anchor {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: "820px") {
+  .shool-review-caption {
+    font-size: 3.5em;
+    padding: 5% 3%;
+  }
+  .school-course-list-container {
+    margin: 0% 5%;
+  }
+  .school-review-freepik-anchor {
+    font-weight: 400;
+  }
+  .freepik-anchors {
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: "1040px") {
+  .school-review-course-count {
+    display: inline-flex;
+    font-size: 4em;
+  }
+  .school-review-course-title {
+    display: inline-flex;
+    font-size: 2m;
+    margin-left: 5%;
+  }
+  .school-review-course-container {
+    width: 33.3%;
+  }
+  .school-review-course-context {
+    font-size: 1.5em;
+  }
+  .school-review-freepik-anchor {
+    padding: 5% 0% 7%;
+  }
+}
+
+@media only screen and (min-width: "1440px") {
+  .school-review-course-count {
+    font-size: 4.75em;
+  }
+  .school-review-course-title {
+    font-size: 2.5em;
+  }
+  .school-review-course-context {
+    font-size: 1.6em;
+  }
+  .school-review-freepik-anchor {
+    font-size: 1.75em;
+  }
+}

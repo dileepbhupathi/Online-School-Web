@@ -1,0 +1,112 @@
+.school-web-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0%;
+    
+}
+
+.school-web-logo {
+    width: 15%;
+    margin-left: 6%;
+}
+
+.school-web-nav-button-icon-container {
+    margin-right: 6%;
+}
+
+.school-web-nav-button-icon {
+    font-size: 2.5em;
+}
+
+.ant-drawer .ant-drawer-body {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    padding: 15% 0;
+    text-align: center;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.822);
+color: white;
+
+}
+
+.school-nav-menu-container {
+    border: 1px solid grey;
+    width: 40%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.school-menu-cross-icon {
+    color: white;
+    font-size: 2.5em;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.school-nav-menu-anchors {
+    padding-top: 82px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media only screen and (min-width:'640px') {
+    .school-web-logo{
+        width:10%;
+    }
+    .school-web-navbar {
+        padding: 2% 0%;
+    }
+    .school-nav-menu-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:'820px') {
+    .school-nav-menu-container {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .school-web-logo{
+        width:8%;
+    }
+    .school-web-navbar {
+        padding: 1.5% 0%;
+    }
+    .school-nav-menu-container {
+        width: 25%;
+    }
+    a{
+        font-size: 1.5em;
+
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .school-web-logo{
+        width:7%;
+    }
+    .school-web-navbar {
+        padding: 1% 0%;
+    }
+    a{
+        font-size: 1.5em;
+
+    }
+    .school-nav-menu-container {
+        width: 25%;
+        font-size: 1.75em;
+    }
+}

@@ -1,0 +1,79 @@
+.free-online-course-list-item {
+    margin: 7% 0%;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+}
+
+.free-course-list-image {
+    width: 100%;
+    border-radius: 1.25em;
+}
+
+.free-online-course-list-item:hover .free-online-course-list-details-container{
+    padding-top: 0px;
+}
+
+.free-online-course-list-details-container {
+    padding-top: 10px;
+}
+
+.free-online-course-list-item-title {
+    font-weight: 500;
+}
+
+.free-online-course-list-item-caption {
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+    padding: 0px 15px;
+}
+
+.free-online-course-list-item-anchor {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #e13690;
+    font-size: 16px;
+    font-weight: 400;
+    text-underline-offset: 7px;
+    margin-bottom: 5%;
+}
+
+.free-online-course-list-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width:'820px') {
+    .free-online-course-list-item {
+        width: 46%;
+        margin: 3% 2%;
+    }
+}
+
+@media only screen and (min-width:'1040px') {
+    .free-online-course-list-item {
+        width: 31.3%;
+        margin: 3% 1%;
+    }
+    .free-online-course-list-item-caption{
+        font-size: 1.5em;
+        padding: 0;
+    }
+    .free-online-course-list-item-anchor{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width:'1440px') {
+    .free-online-course-list-item-caption{
+        font-size: 1.75em;
+        padding: 0;
+    }
+    .free-online-course-list-item-anchor{
+        font-size: 1.75em;
+    }
+    
+.free-online-course-list-item-title {
+    font-size: 2.75em;
+}
+}
